@@ -19,10 +19,6 @@
     display: flex;
 }
 
-nav {
-    /* margin-top: 19px; */
-}
-
 nav ul {
     list-style: none;
     gap: 44px;
@@ -50,7 +46,7 @@ nav ul li button {
 }
 
 #imgli {
-    margin-right: 800px;
+    margin-right: 1000px;
 }
 
 nav {
@@ -217,6 +213,108 @@ li button {
     gap: 53px;
     margin: 13px;
 }
-.div1{
-    padding: 32px;
+
+.footer {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(4deg, rgba(0, 255, 255, 0.414), rgb(217, 129, 129))
+}
+
+.footerdivs {
+    width: 25%;
+    height: 55vh;
+}
+
+.f1 img {
+    width: 100px;
+    height: 103px;
+    object-fit: cover;
+}
+
+.f1 {
+    align-items: center;
+    justify-content: center;
+}
+
+.f2 ul {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 120px;
+}
+
+.f2 ul li {
+    margin: 23px;
+    color: black;
+    font-size: 1.55rem;
+}
+
+.f2 ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.f3 {
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.f3 ul {
+    list-style: none;
+}
+
+.f3 ul li {
+    margin: 20px;
+}
+
+.f3 ul li img {
+    filter: invert(1);
+}
+
+.new {
+    display: flex;
+    justify-content: center;
+}
+
+.f3 {
+    font-size: 1.4rem;
+}
+
+.f4 {
+    justify-content: center;
+    align-items: center;
+}
+
+.f4 ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.f4 ul li {
+    margin: 12px;
+    font-size: 1.2rem;
+    margin: 23px;
+}
+
+.f4 ul li img {
+    width: 33px;
+
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    height: 5vh;
+    font-size: 1.4rem;
+    background-color: rgba(128, 128, 128, 0.268);
+}
+
+#copyright p {
+    margin-top: 9px;
 }
